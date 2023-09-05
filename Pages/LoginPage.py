@@ -10,13 +10,14 @@ class LoginPage:
         self.loginButton = (By.ID, "login-button")
 
     def enter_username(self, username):
-        # type the username into the username input field
+        # type the username
         self.driver.find_element(*self.usernameInput).send_keys(username)
 
     def enter_password(self, password):
-        # type the password into the password input field
+        # type the password
         self.driver.find_element(*self.passwordInput).send_keys(password)
 
     def click_login(self):
         # click the login button
         self.driver.find_element(*self.loginButton).click()
+
