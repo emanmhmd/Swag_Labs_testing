@@ -17,8 +17,10 @@ Swag_Labs_testing/
 │   ├── LoginPage.py  
 │   ├── Addtocart.py  
 │   └── ...  
+|  
 ├── Fixtures/  
 │   ├── Data.json  
+|  
 └── README.md  
 ___________________________________________
 Enviroment:
