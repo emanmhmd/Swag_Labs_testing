@@ -4,6 +4,12 @@ The test contains the following cases to valid different parts in the website:
 1-Test login with valid coordinates  
 2-Test login with invalid coordinates  
 3-Test add items to cart then checkout  
+___________________________________________
+Here's sample demo of the Test it self
+
+https://github.com/emanmhmd/Swag_Labs_testing/assets/63087099/6d8c19f6-c3ab-4c3c-944c-fb5ca0457aa7
+
+
 _________________________________________
 Project structure goes as the following:  
 Swag_Labs_testing/  
