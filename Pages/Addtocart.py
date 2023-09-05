@@ -26,6 +26,8 @@ class Addtocart:
         self.continue_button = (By.ID, "continue")
         self.finish_shopping = (By.ID, "finish")
         self.confirmation = (By.CLASS_NAME, "complete-header")
+        self.burger_menu = (By.ID, "react-burger-menu-btn")
+        self.logout_button = (By.ID, "logout_sidebar_link")
 
     # add items to cart
     def add_items(self):
@@ -59,3 +61,9 @@ class Addtocart:
         actual_message = self.get_confirmation_message()
         # Assertion on the message
         assert expected_message == actual_message, f"Expected message: {expected_message}, but got: {actual_message}"
+
+    def logout(self):
+        # click on burger menu to get expended
+        self.driver.find_element(*self.burger_menu).click()
+        # click on logout
+        self.driver.find_element(*self.logout_button).click()

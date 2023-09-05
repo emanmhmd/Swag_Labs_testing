@@ -48,4 +48,6 @@ def test_add_items_checkout(driver):
     addtocart.add_items()
     addtocart.open_cart()
     addtocart.checkout()
+    # to logout after done checkout
+    addtocart.logout()
 
