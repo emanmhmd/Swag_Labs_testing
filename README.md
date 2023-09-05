@@ -9,13 +9,13 @@ Project structure goes as the following:
 Swag_Labs_testing/  
 │  
 ├── Tests/  
-│   ├── test_login.py               # Test cases for user login  
-│   ├── test_addtocart.py           # Test cases for add items to cart then checkout  
+│   ├── test_login.py         
+│   ├── test_addtocart.py  
 │   └── ...  
 │  
 ├── pages/  
-│   ├── LoginPage.py             # Page object for the login page  
-│   ├── Addtocart.py             # Page object for add items , cart page  
+│   ├── LoginPage.py  
+│   ├── Addtocart.py  
 │   └── ...  
 └── README.md  
 ___________________________________________
