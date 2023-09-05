@@ -6,17 +6,17 @@ The test contains the following cases to valid different parts in the website:
 3-Test add items to cart then checkout  
 _________________________________________
 Project structure goes as the following:  
-Swag_Labs_testing/
-│
-├── Tests/
-│   ├── test_login.py               # Test cases for user login
-│   ├── test_addtocart.py           # Test cases for add items to cart then checkout
-│   └── ...
-│
-├── pages/
-│   ├── LoginPage.py             # Page object for the login page
-│   ├── Addtocart.py             # Page object for add items , cart page
-│   └── ...
+Swag_Labs_testing/  
+│  
+├── Tests/  
+│   ├── test_login.py               # Test cases for user login  
+│   ├── test_addtocart.py           # Test cases for add items to cart then checkout  
+│   └── ...  
+│  
+├── pages/  
+│   ├── LoginPage.py             # Page object for the login page  
+│   ├── Addtocart.py             # Page object for add items , cart page  
+│   └── ...  
 └── README.md  
 ___________________________________________
 Enviroment:
