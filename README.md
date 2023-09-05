@@ -13,10 +13,12 @@ Swag_Labs_testing/
 │   ├── test_addtocart.py  
 │   └── ...  
 │  
-├── pages/  
+├── Pages/  
 │   ├── LoginPage.py  
 │   ├── Addtocart.py  
 │   └── ...  
+├── Fixtures/  
+│   ├── Data.json  
 └── README.md  
 ___________________________________________
 Enviroment:
