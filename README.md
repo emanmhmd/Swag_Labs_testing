@@ -1,4 +1,4 @@
-# Swag Labs Testing Demo (Work in Progress)  
+# Swag Labs Testing Demo   
 
 This is a demo project for automated testing of the Swag Labs e-commerce website using Selenium. The project includes test cases to validate various parts of the website.  
 
