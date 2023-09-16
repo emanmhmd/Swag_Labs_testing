@@ -4,7 +4,7 @@ from selenium import webdriver
 from Pages.LoginPage import LoginPage
 
 # read login credentials from the JSON file
-json_file_path = "/home/emanmhmd/Documents/Projects/Swag_Labs_testing/Fixtures/Data.json"
+json_file_path = "/Fixtures/Data.json"
 with open(json_file_path, "r") as json_file:
     Data = json.load(json_file)
 # store JSON data in variables
