@@ -2,7 +2,7 @@ from selenium.webdriver.common.by import By
 import json
 
 # Read personal info from the JSON file
-json_file_path = "/home/emanmhmd/Documents/Projects/Swag_Labs_testing/Fixtures/Data.json"
+json_file_path = "/Fixtures/Data.json"
 with open(json_file_path, "r") as json_file:
     Data = json.load(json_file)
 # Store JSON data in variables
